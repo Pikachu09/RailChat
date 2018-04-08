@@ -1,0 +1,26 @@
+Rule Based Approach:
+In a rule-based approach, a bot answers queries based on certain rules. The rules defined can be very simple to very complex. A simple rule based chat bot can be constructed using basic NLP and making sense of the user's
+query by looking at important  words used in the query and also keeping in mind nature of sentence.
+
+The user queries for RailChat can be of the following forms:
+
+1. For Live status of the train
+	Sentence consisting of the word "current status" and "train" where "train" should be followed by the desired train number.
+	Example:
+	What is the current status of train 11078
+	current status of train 11078
+	train 11078 current status etc.
+2. For PNR enquiry
+	Sentence consisting of the word "pnr" or "PNR"followed by the pnr number.
+	Example:
+	Check pnr 1234567890
+	pnr 1234567890 check status etc.
+3. For checking seat availability
+	Sentence consisting of words:
+	"seat"
+	"train" followed by train number
+	"from" followed by boarding station code
+	"to" followed by destination station code
+	"on" followed by date in dd-mm-yyyy format
+	
+
